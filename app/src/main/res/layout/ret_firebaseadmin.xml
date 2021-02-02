@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/namee"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/one"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/namee"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/two"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/three"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/four"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/five"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+
+</RelativeLayout>
